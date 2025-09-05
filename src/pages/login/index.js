@@ -1,9 +1,16 @@
-import { View, Text } from "react-native";
+import React from "react";
+import { Text, View, TouchableOpacity } from "react-native";
+
+import styles from "./styles";
 
 export function Login() {
   return (
-    <View>
-      <Text>Tela Login</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Olá, React Native! 🚀</Text>
+
+      <TouchableOpacity style={styles.button}>
+        <Text style={styles.buttonText}>Clique aqui</Text>
+      </TouchableOpacity>
     </View>
   );
 }
