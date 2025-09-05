@@ -3,10 +3,10 @@ import { Text, View, TouchableOpacity } from "react-native";
 
 import styles from "./styles";
 
-export function Home() {
+export function Dashboard() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tela Home</Text>
+      <Text style={styles.title}>Tela Dshboard</Text>
 
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Clique aqui</Text>
