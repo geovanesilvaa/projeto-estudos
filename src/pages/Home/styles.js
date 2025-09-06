@@ -2,10 +2,10 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, // ocupa a tela toda
+    flex: 1,
     backgroundColor: "#f5f5f5",
-    alignItems: "center", // centraliza horizontalmente
-    justifyContent: "center", // centraliza verticalmente
+    alignItems: "center",
+    justifyContent: "center",
   },
   title: {
     fontSize: 24,

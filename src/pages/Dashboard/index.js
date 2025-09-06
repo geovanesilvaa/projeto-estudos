@@ -3,7 +3,7 @@ import { Text, View, TouchableOpacity } from "react-native";
 
 import styles from "./styles";
 
-export function Dashboard() {
+export default function Dashboard() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tela Dshboard</Text>
